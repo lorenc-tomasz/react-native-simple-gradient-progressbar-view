@@ -10,7 +10,7 @@ RCT_EXPORT_MODULE(SimpleGradientProgressbarViewView)
 
 - (UIView *)view
 {
-  return [[UIView alloc] init];
+  return [[SimpleGradientProgressbarView alloc] init];
 }
 
 
