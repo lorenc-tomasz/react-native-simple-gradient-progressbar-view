@@ -15,7 +15,6 @@ import SimpleGradientProgressbarView from "react-native-simple-gradient-progress
 
 // ...
 
-const result = await SimpleGradientProgressbarView.multiply(3, 7);
 ```
 
 ## Contributing
