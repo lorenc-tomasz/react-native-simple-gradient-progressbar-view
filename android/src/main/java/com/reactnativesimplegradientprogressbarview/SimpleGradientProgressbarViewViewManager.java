@@ -13,7 +13,7 @@ import com.facebook.react.uimanager.annotations.ReactProp;
 import com.facebook.react.bridge.ReadableArray;
 
 public class SimpleGradientProgressbarViewViewManager extends SimpleViewManager<View> {
-    public static final String REACT_CLASS = "SimpleGradientProgressbarView";
+    public static final String REACT_CLASS = "SimpleGradientProgressbarViewView";
 
     @Override
     @NonNull
