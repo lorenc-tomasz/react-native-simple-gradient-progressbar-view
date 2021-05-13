@@ -21,7 +21,7 @@ android {
     compileSdkVersion safeExtGet('SimpleGradientProgressbarView_compileSdkVersion', 29)
     buildToolsVersion safeExtGet('SimpleGradientProgressbarView_buildToolsVersion', '29.0.2')
     defaultConfig {
-        minSdkVersion safeExtGet('SimpleGradientProgressbarView_minSdkVersion', 16)
+        minSdkVersion safeExtGet('SimpleGradientProgressbarView_minSdkVersion', 21)
         targetSdkVersion safeExtGet('SimpleGradientProgressbarView_targetSdkVersion', 29)
         versionCode 1
         versionName "1.0"

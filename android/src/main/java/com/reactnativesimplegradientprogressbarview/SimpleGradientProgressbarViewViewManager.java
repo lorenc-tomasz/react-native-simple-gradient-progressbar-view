@@ -13,7 +13,7 @@ import com.facebook.react.uimanager.annotations.ReactProp;
 import com.facebook.react.bridge.ReadableArray;
 
 public class SimpleGradientProgressbarViewViewManager extends SimpleViewManager<View> {
-    public static final String REACT_CLASS = "SimpleGradientProgressbarViewView";
+    public static final String REACT_CLASS = "SimpleGradientProgressbarView";
 
     @Override
     @NonNull
@@ -24,31 +24,31 @@ public class SimpleGradientProgressbarViewViewManager extends SimpleViewManager<
     @Override
     @NonNull
     public View createViewInstance(ThemedReactContext reactContext) {
-        return new SimpleGradientProgressbarViewView(reactContext);
+        return new SimpleGradientProgressbarView(reactContext);
     }
 
     @ReactProp(name = "progress")
-    public void setProgress(RNGradientView view, @Nullable float progress) {
+    public void setProgress(SimpleGradientProgressbarView view, @Nullable float progress) {
         view.setProgress(progress);
     }
 
     @ReactProp(name = "cornerRadius")
-    public void setCornerRadius(RNGradientView view, @Nullable float cornerRadius) {
+    public void setCornerRadius(SimpleGradientProgressbarView view, @Nullable float cornerRadius) {
         view.setCornerRadius(cornerRadius);
     }
 
     @ReactProp(name = "fromColor", customType = "Color")
-    public void setFromColor(RNGradientView view, @Nullable int color) {
+    public void setFromColor(SimpleGradientProgressbarView view, @Nullable int color) {
         view.setFromColor(color);
     }
 
     @ReactProp(name = "toColor", customType = "Color")
-    public void setToColor(RNGradientView view, @Nullable int color) {
+    public void setToColor(SimpleGradientProgressbarView view, @Nullable int color) {
         view.setToColor(color);
     }
 
     @ReactProp(name = "maskedCorners")
-    public void setMaskedCorners(RNGradientView view, ReadableArray maskedCorners) {
+    public void setMaskedCorners(SimpleGradientProgressbarView view, ReadableArray maskedCorners) {
         view.setMaskedCorners(maskedCorners);
     }
 }
