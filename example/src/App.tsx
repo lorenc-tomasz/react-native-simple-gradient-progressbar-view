@@ -8,19 +8,25 @@ export default function App() {
     <View style={styles.container}>
       <SimpleGradientProgressbarViewViewManager
         style={styles.box} 
-        fromColor="#FF00AA"
-        toColor="#FA3A55"
-        progress={0.8}
+        fromColor="#FF0000"
+        toColor="#0000FF"
+        progress={0.50}
         maskedCorners={[0, 0, 1, 1]}
         cornerRadius={7.0} 
       />
       <SimpleGradientProgressbarViewViewManager
         style={styles.box} 
-        fromColor="#11AACC"
-        toColor="#FA3A55"
-        progress={0.9}
+        fromColor="#FF0000"
+        toColor="#0000FF"
+        progress={0.75}
         maskedCorners={[1, 1, 1, 1]}
         cornerRadius={7.0} 
+    />
+    <SimpleGradientProgressbarViewViewManager
+        style={styles.box} 
+        fromColor="#FF0000"
+        toColor="#0000FF"
+        progress={1.0}
     />
     </View>
   );

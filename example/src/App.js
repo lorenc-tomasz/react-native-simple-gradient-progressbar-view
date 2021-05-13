@@ -3,8 +3,9 @@ import { StyleSheet, View } from 'react-native';
 import SimpleGradientProgressbarViewViewManager from 'react-native-simple-gradient-progressbar-view';
 export default function App() {
     return (React.createElement(View, { style: styles.container },
-        React.createElement(SimpleGradientProgressbarViewViewManager, { style: styles.box, fromColor: "#FF00AA", toColor: "#FA3A55", progress: 0.8, maskedCorners: [0, 0, 1, 1], cornerRadius: 7.0 }),
-        React.createElement(SimpleGradientProgressbarViewViewManager, { style: styles.box, fromColor: "#11AACC", toColor: "#FA3A55", progress: 0.9, maskedCorners: [1, 1, 1, 1], cornerRadius: 7.0 })));
+        React.createElement(SimpleGradientProgressbarViewViewManager, { style: styles.box, fromColor: "#FF0000", toColor: "#0000FF", progress: 0.50, maskedCorners: [0, 0, 1, 1], cornerRadius: 7.0 }),
+        React.createElement(SimpleGradientProgressbarViewViewManager, { style: styles.box, fromColor: "#FF0000", toColor: "#0000FF", progress: 0.75, maskedCorners: [1, 1, 1, 1], cornerRadius: 7.0 }),
+        React.createElement(SimpleGradientProgressbarViewViewManager, { style: styles.box, fromColor: "#FF0000", toColor: "#0000FF", progress: 1.0 })));
 }
 const styles = StyleSheet.create({
     container: {
