@@ -6,7 +6,14 @@ import SimpleGradientProgressbarViewViewManager from 'react-native-simple-gradie
 export default function App() {
   return (
     <View style={styles.container}>
-      <SimpleGradientProgressbarViewViewManager color="#32a852" style={styles.box} />
+      <SimpleGradientProgressbarViewViewManager
+        style={styles.box} 
+          fromColor="#FA3A33"
+          toColor="#FA3A55"
+          progress={0.8}
+          maskedCorners={[0, 0, 1, 1]}
+          cornerRadius={0.0} 
+      />
     </View>
   );
 }
