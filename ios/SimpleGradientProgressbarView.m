@@ -7,6 +7,7 @@
 //
 
 #import "SimpleGradientProgressbarView.h"
+#import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
 @interface SimpleGradientProgressbarView()
@@ -68,12 +69,12 @@
   [self update];
 }
 
-- (void)setProgress:(NSString *)progress {
+- (void)setProgress:(NSNumber *)progress {
   self._progress = progress;
   [self update];
 }
 
-- (void)setCornerRadius:(NSString *)cornerRadius {
+- (void)setCornerRadius:(NSNumber *)cornerRadius {
   self._cornerRadius = cornerRadius;
   [self update];
 }
