@@ -8,12 +8,20 @@ export default function App() {
     <View style={styles.container}>
       <SimpleGradientProgressbarViewViewManager
         style={styles.box} 
-          fromColor="#FA3A33"
-          toColor="#FA3A55"
-          progress={0.8}
-          maskedCorners={[0, 0, 1, 1]}
-          cornerRadius={0.0} 
+        fromColor="#FF00AA"
+        toColor="#FA3A55"
+        progress={0.8}
+        maskedCorners={[0, 0, 1, 1]}
+        cornerRadius={7.0} 
       />
+      <SimpleGradientProgressbarViewViewManager
+        style={styles.box} 
+        fromColor="#11AACC"
+        toColor="#FA3A55"
+        progress={0.9}
+        maskedCorners={[1, 1, 1, 1]}
+        cornerRadius={7.0} 
+    />
     </View>
   );
 }
@@ -25,8 +33,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   box: {
-    width: 60,
-    height: 60,
+    width: 300,
+    height: 30,
     marginVertical: 20,
+    borderColor: '#000000',
+    borderWidth: 1,
+    borderRadius: 7.0,
   },
 });
