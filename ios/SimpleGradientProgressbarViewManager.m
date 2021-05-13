@@ -1,12 +1,12 @@
 #import <React/RCTViewManager.h>
 #import "SimpleGradientProgressbarView.h"
 
-@interface SimpleGradientProgressbarViewViewManager : RCTViewManager
+@interface SimpleGradientProgressbarViewManager : RCTViewManager
 @end
 
-@implementation SimpleGradientProgressbarViewViewManager
+@implementation SimpleGradientProgressbarViewManager
 
-RCT_EXPORT_MODULE(SimpleGradientProgressbarViewView)
+RCT_EXPORT_MODULE(SimpleGradientProgressbarView)
 
 - (UIView *)view
 {

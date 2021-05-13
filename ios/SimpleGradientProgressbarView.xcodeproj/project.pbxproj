@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libSimpleGradientProgressbarView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimpleGradientProgressbarView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7913FD9264D063D00777748 /* SimpleGradientProgressbarViewViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGradientProgressbarViewViewManager.m; sourceTree = "<group>"; };
+		E74146C5264D3988009CCCC4 /* SimpleGradientProgressbarViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGradientProgressbarViewManager.m; sourceTree = "<group>"; };
 		E7913FDA264D067500777748 /* SimpleGradientProgressbarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleGradientProgressbarView.h; sourceTree = "<group>"; };
 		E7913FDB264D067500777748 /* SimpleGradientProgressbarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGradientProgressbarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,9 +47,9 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				E74146C5264D3988009CCCC4 /* SimpleGradientProgressbarViewManager.m */,
 				E7913FDA264D067500777748 /* SimpleGradientProgressbarView.h */,
 				E7913FDB264D067500777748 /* SimpleGradientProgressbarView.m */,
-				E7913FD9264D063D00777748 /* SimpleGradientProgressbarViewViewManager.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";

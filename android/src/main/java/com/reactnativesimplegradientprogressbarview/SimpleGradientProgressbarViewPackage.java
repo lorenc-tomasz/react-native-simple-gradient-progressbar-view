@@ -17,6 +17,6 @@ public class SimpleGradientProgressbarViewPackage implements ReactPackage {
 
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
-        return Arrays.<ViewManager>asList(new SimpleGradientProgressbarViewViewManager());
+        return Arrays.<ViewManager>asList(new SimpleGradientProgressbarViewManager());
     }
 }

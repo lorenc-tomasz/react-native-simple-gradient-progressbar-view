@@ -9,8 +9,8 @@ type SimpleGradientProgressbarViewProps = {
   cornerRadius?: number;
 };
 
-export const SimpleGradientProgressbarViewViewManager = requireNativeComponent<SimpleGradientProgressbarViewProps>(
-'SimpleGradientProgressbarViewView'
+export const SimpleGradientProgressbarView = requireNativeComponent<SimpleGradientProgressbarViewProps>(
+'SimpleGradientProgressbarView'
 );
 
-export default SimpleGradientProgressbarViewViewManager;
+export default SimpleGradientProgressbarView;

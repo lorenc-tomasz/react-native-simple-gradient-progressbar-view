@@ -1,12 +1,12 @@
 import * as React from 'react';
 
 import { StyleSheet, View } from 'react-native';
-import SimpleGradientProgressbarViewViewManager from 'react-native-simple-gradient-progressbar-view';
+import SimpleGradientProgressbarView from 'react-native-simple-gradient-progressbar-view';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <SimpleGradientProgressbarViewViewManager
+      <SimpleGradientProgressbarView
         style={styles.box} 
         fromColor="#FF0000"
         toColor="#0000FF"
@@ -14,7 +14,7 @@ export default function App() {
         maskedCorners={[0, 0, 1, 1]}
         cornerRadius={7.0} 
       />
-      <SimpleGradientProgressbarViewViewManager
+      <SimpleGradientProgressbarView
         style={styles.box} 
         fromColor="#FF0000"
         toColor="#0000FF"
@@ -22,7 +22,7 @@ export default function App() {
         maskedCorners={[1, 1, 1, 1]}
         cornerRadius={7.0} 
     />
-    <SimpleGradientProgressbarViewViewManager
+    <SimpleGradientProgressbarView
         style={styles.box} 
         fromColor="#FF0000"
         toColor="#0000FF"
