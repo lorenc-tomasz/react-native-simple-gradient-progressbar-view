@@ -75,6 +75,7 @@ type SimpleGradientProgressbarViewProps = {
 
 ### iPhone
 <img src="/screenshots/iphone.png" width="400">
+
 ### Android
 <img src="/screenshots/android.png" width="400">
 
