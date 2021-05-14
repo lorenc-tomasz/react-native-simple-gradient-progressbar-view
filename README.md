@@ -74,10 +74,10 @@ type SimpleGradientProgressbarViewProps = {
 ## Screenshots
 
 ### iPhone
-![iPhone](/screenshots/iphone.png | width=100)
+![iPhone](/screenshots/iphone.png){:height="25%" width="25%"}
 
 ### Android
-![Android](/screenshots/android.png | width=100)
+![Android](/screenshots/android.png){:height="25%" width="25%"}
 
 ## License
 
