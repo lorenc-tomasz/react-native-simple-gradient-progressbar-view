@@ -73,14 +73,10 @@ type SimpleGradientProgressbarViewProps = {
 
 ## Masked Corners
 
-Masked corners property will only affact iOS >= 11 and Android. Enabling masking for corner allows to put corner radius to corner.
-All 4 values are required but the maskedCorners is optional:
-- maskedCorners={[leftTop, rightTop, leftBottom, rightBottom]}
-0 = maskedCorner disabled , 1 - maskedCorners enabled
-so:
-- maskedCorners={[1, 1, 1, 1]}
+Masked corners property will only affact iOS >= 11 and Android. By default masking of all corners is enabled. To disable masking (disable corner radius on specific corenr) you need to user `maskedCorners` property. Each value in array is coresponging to each corner:
+- maskedCorners={[leftTop, rightTop, leftBottom, rightBottom]}, where 0 = maskedCorner disabled , 1 - maskedCorners enabled;
 
-!! Property will be refacored to be more user friendly
+All 4 values are required, howerve the maskedCorners property is optional. Eg. to didsable masking on leftTop and rightBottom corners you need to set: `maskedCorners={[0, 1, 1, 0]}`.
 
 ## Screenshots
 
