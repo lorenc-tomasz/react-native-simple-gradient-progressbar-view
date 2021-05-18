@@ -2,7 +2,7 @@ import { requireNativeComponent, ViewStyle } from 'react-native';
 
 type SimpleGradientProgressbarViewProps = {
   style: ViewStyle;
-  fromColor: string; // color 
+  fromColor: string; // color
   toColor: string; // color
   progress: number; // 0.0 - 1.0
   maskedCorners?: Array<number>; 
